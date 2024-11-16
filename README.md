@@ -1,5 +1,5 @@
-## 入门
-### 常见的CMD命令
+<h2 id="gryWl">入门</h2>
+<h3 id="CEGoi">常见的CMD命令</h3>
 1. 盘符名称+冒号
 
 说明：盘符切换
@@ -38,7 +38,7 @@
 
 说明：退出命令提示框
 
-### HelloWorld案例
+<h3 id="y4t4M">HelloWorld案例</h3>
 ```java
 public class HelloWorld{
     public static void main(String[] args){
@@ -49,11 +49,11 @@ public class HelloWorld{
 
 打开cmd，cd进入文件目录，输入编译命令javac HelloWorld.java，此时会生成HelloWorld.class文件，再输入执行命令java HelloWorld则可输出HelloWorld。
 
-### 常见小问题
+<h3 id="ZOisk">常见小问题</h3>
 1. 注意标点符号都要为英文符号
 2. 注意单词大小写例如String不能写为string
 
-### Path环境变量的配置
+<h3 id="OTyVZ">Path环境变量的配置</h3>
 **右击我的电脑-属性-高级系统设置-环境变量**
 
 步骤：
@@ -72,7 +72,7 @@ public class HelloWorld{
     1. JAVA_HOME照样配置
     2. 在Path中，不要引用JAVA_HOME，直接填写完整路径（E:\develop\jdk\bin）
 
-### JDK和JRE
+<h3 id="OLUHo">JDK和JRE</h3>
 JDK是JAVA开发工具包包含：
 
     1. JVM虚拟机
@@ -90,9 +90,9 @@ JDK和JRE以及JVM的包含关系：
     1. JDK包含JRE
     2. JRE包含JVM
 
-## 基础概念
-### 注释和关键字
-#### 注释
+<h2 id="L01c4">基础概念</h2>
+<h3 id="XWKed">注释和关键字</h3>
+<h4 id="shHVa">注释</h4>
     1. 单行注释
         1. //注释信息
     2. 多行注释
@@ -126,7 +126,7 @@ public class HelloWorld{
 }
 ```
 
-#### 关键字
+<h4 id="qoVa4">关键字</h4>
 关键字就是被java赋予了特定意义的英文单词
 
     1. 关键字字母全部小写
@@ -134,7 +134,7 @@ public class HelloWorld{
 
 class：用于创建或定义一个类，类是java最基本的组成单元
 
-### 字面量(常量)
+<h3 id="swd1J">字面量(常量)</h3>
 | 字面量类型 | 说明 | 举例 |
 | --- | --- | --- |
 | 整数类型 | 不带小数点的数字 | 666,888 |
@@ -145,13 +145,13 @@ class：用于创建或定义一个类，类是java最基本的组成单元
 | 空类型 | 一个特殊的值，空值 | 值是：null |
 
 
-#### 字符类型的字面量
+<h4 id="X3xh5">字符类型的字面量</h4>
 | \t | 制表符 | 输出的时候，把前面的字符串长度补齐到8，或者8的倍数，最少补一个空格，最多补8个空格 |
 | --- | --- | --- |
 
 
-### 变量
-#### 变量的定义格式
+<h3 id="bykkJ">变量</h3>
+<h4 id="cBKa4">变量的定义格式</h4>
 数据类型 变量名=数据值;
 
 数据类型：为空间中存储的数据，加入类型【限制】
@@ -172,7 +172,7 @@ public class VariableDemo {
 
 ```
 
-#### 变量的使用方式和注意事项
+<h4 id="mZKXt">变量的使用方式和注意事项</h4>
 ```java
                 //定义变量和输出变量
                 int b=10;
@@ -212,7 +212,7 @@ public class VariableDemo {
                 System.out.println(i);
 ```
 
-#### 变量的练习
+<h4 id="jjjDy">变量的练习</h4>
 ```java
 public class VariableTest {
         //主入口
@@ -237,7 +237,7 @@ public class VariableTest {
 
 ```
 
-#### 计算机中的数据存储
+<h4 id="idoWB">计算机中的数据存储</h4>
 **计算机的存储规则**
 
 1. Text文本
@@ -263,7 +263,7 @@ public class VariableTest {
 3. 八进制需要以0开头
 4. 十六进制需要以0x开头
 
-#### 数据类型
+<h4 id="JYUkb">数据类型</h4>
 1. 基本数据类型
     1. 整数
         1. byte(内存占用**1**个字节)
@@ -347,7 +347,7 @@ public class VariableTest {
 
 2. 引用数据类型(数组和面向对象后再来学习)
 
-#### 标识符
+<h4 id="YhDJU">标识符</h4>
 标识符:就是给**类,方法,变量**等起的名字.
 
 编写程序时应尽量遵守阿里巴巴编码规范
@@ -368,7 +368,7 @@ public class VariableTest {
             1. 例: 一个单词的时候,首字母大写:Student
             2. 多个单词时,每个首字母都要大写:GoodStudent
 
-#### 键盘录入
+<h4 id="RKEyL">键盘录入</h4>
 **介绍: JAVA内置的一个类叫做Scanner, 这个类可以接收键盘输入的数字. **
 
 **步骤:**
@@ -420,9 +420,9 @@ public class ScannerTest {
 }
 ```
 
-### IDEA
-#### IDEA下载和安装（省略自行百度）
-#### IDEA的第一个代码
+<h3 id="KgfIy">IDEA</h3>
+<h4 id="FCJrJ">IDEA下载和安装（省略自行百度）</h4>
+<h4 id="Dne7a">IDEA的第一个代码</h4>
     1. IDEA的项目结构 （从大到小）
         1. project（项目）
         2. module（模块）
@@ -436,7 +436,7 @@ public class ScannerTest {
         5. 输入psvm按tab即可快速生成程序主入口代码
         6. 输入sout按tab即可快速生成打印代码
 
-#### 项目, 模块, 类的操作
+<h4 id="Iuhgt">项目, 模块, 类的操作</h4>
     1. 类
         1. 新建
         2. 删除
@@ -455,23 +455,21 @@ public class ScannerTest {
         3. 打开
         4. 修改
 
-## 运算符
-### 运算符和表达式
-#### 运算符
+<h2 id="imhtb">运算符</h2>
+<h4 id="au43M">算术运算符</h4>
 概念: 对字面量或者变量进行操作的符号
 
-##### 算术运算符
-            1. +
-                1. 加
-            2. -
-                1. 减
-            3. *
-                1. 乘
-            4. /
-                1. 除
-            5. %
-                1. 取余
-            6. 例
+        1. +
+            1. 加
+        2. -
+            1. 减
+        3. *
+            1. 乘
+        4. /
+            1. 除
+        5. %
+            1. 取余
+        6. 例
 
 ```java
 public class Main {
@@ -498,7 +496,7 @@ public class Main {
 }
 ```
 
-            7. 练习: 数值拆分
+            1. 练习: 数值拆分
 
 ```java
 //需求: 键盘录入一个三位数, 将其拆分为个位, 十位, 百位
@@ -533,8 +531,8 @@ public class Test1 {
 
 ```
 
-##### 隐式转换和强制转换
-###### 隐式转换(自动类型提升)
+<h5 id="h1A1l">隐式转换和强制转换</h5>
+<h6 id="apWmV">隐式转换(自动类型提升)</h6>
 概念: 把取值小的数值, 转成取值范围大的数据
 
 ```java
@@ -560,7 +558,7 @@ byte b=20;
 //byte short char三种类型都会先提升为int类型,所以c为int型
 ```
 
-###### 强制转换
+<h6 id="cY8ZW">强制转换</h6>
 概念: 如果把一个取值范围大的数值, 赋值给取值范围小的变量. 是不允许直接赋值. 如果一定要这么做就需要加入强制转换
 
 **格式: 目标类型数据类型 变量名=(目标数据类型)被强转的数据;**
@@ -589,10 +587,11 @@ public class AritheimaticoperatorDemo2 {
 
 
 
-#### 表达式	
+<h5 id="Od0Iq">表达式	</h5>
 概念: 用运算符把字面量或者变量连接起来, 符合java语法的式子就可以称为表达式.; 不同运算符链接的表达式体现的是不同类型的表达式
 
-#### 例
+**例**
+
 ```java
 int a=10;
 int b=20;
@@ -601,8 +600,8 @@ int c=a+b;
 //a+b: 是表达式,由于+是算术运算符,所以这个表达式叫算术表达式
 ```
 
-### 字符串相加
-#### 字符串"+"操作
+<h4 id="u8TfJ">字符串相加</h4>
+<h5 id="BTmx0">字符串"+"操作</h5>
 **概念: 当"+"操作出现字符串时, 这个"+"是字符串连接符, 不再是算术运算符. 会将前后数据进行拼接, 并产生一个新的字符串.**
 
 例子: "123"+123 结果为"123123"
@@ -613,7 +612,7 @@ int c=a+b;
 
 ![](https://cdn.nlark.com/yuque/0/2024/png/40814874/1731631736927-8bd4751b-cf11-42b7-a8c2-961b5e664112.png)
 
-#### 例题: 数值拆分
+<h5 id="CWRag">例题: 数值拆分</h5>
 ```java
 import java.util.Scanner;
 
@@ -643,12 +642,401 @@ public class Test1 {
 }
 ```
 
-#### 字符相加
+<h4 id="w08Lv">字符相加</h4>
 **当字符+字符/字符+数字时, 会把字符通过ASCII码表查询到对应数字再进行计算.**
 
 ```java
 System.out.println(1+'a');//98
 ```
+
+<h4 id="A3ea9">自增自减运算符</h4>
+<h5 id="TCYbH">基本用法</h5>
+| 符号 | 作用 | 说明 |
+| --- | --- | --- |
+| ++ | 加 | 变量的值加1 |
+| -- | 减 | 变量的值减1 |
+
+
+**注意事项: ++和--既可以放在变量前面也可以放在变量后面, ++和--无论在前在后,单独写一行结果是一样的.**
+
+<h5 id="zehEo">两种用法</h5>
+<h6 id="AerFI">先用后加</h6>
+```java
+int a=10;
+int b=a++;//10
+```
+
+<h6 id="Fj7ys">先加后用</h6>
+```java
+int a=10;
+int b=++a;//11
+```
+
+<h4 id="YTJeQ">赋值运算符</h4>
+<h5 id="Zll6X">分类</h5>
+| 符号 | 作用 | 说明 |
+| --- | --- | --- |
+| = | 赋值 | int a=10; 将10赋值给a |
+| += | 加后赋值 | a+=b;将a+b的值给a |
+| -= | 减后赋值 | a-=b;将a+b的值给a |
+| *= | 乘后赋值 | a*=b;将a*b的值给a |
+| /= | 除后赋值 | a/=b;将a/b的商给a |
+| %= | 取余后赋值 | a%=b;将a%b的余数给a |
+
+
+**注意事项: 扩展的赋值运算符隐含了强制类型转换**
+
+```java
+package com.itheima.YunSuanFu;
+
+public class AritheimaticoperatorDemo4 {
+        public static void main(String[] args) {
+                //+=
+                //规则: 将左边和右边进行相加, 然后赋值给左边
+                int a=10;
+                int b=20;
+                a+=b;
+                //等同于a=(int)(a+b);
+                System.out.println(a);
+                System.out.println(b);
+
+                //细节
+                //+= -= *= /= %=都隐藏了一个强制转换
+                //short在计算时会先转为int型再进行计算,根据左边的变量类型再把结果转换类型
+                short s=1;
+                //等同于s=(short)(s+1);
+                s+=1;
+                System.out.println(s);
+        }
+}
+
+```
+
+<h4 id="Imesi">关系运算符</h4>
+| 符号 | 说明 |
+| --- | --- |
+| == | a==b, 判断a和b的值是否相等, 成立为true,否则false |
+| != | a!=b, 判断a和b的值是否不相等, 成立为true,否则false |
+| > | a>b, 判断a是否大于b,成立为true,否则false |
+| >= | a>=b, 判断a是否大于等于b,成立为true,否则false |
+| < | a<b, 判断a是否小于b,成立为true,否则false |
+| <= | a<=b, 判断a是否小于等于b,成立为true,否则false |
+
+
+**注意事项: 关系运算符的结果都是****<font style="color:#DF2A3F;">boolean</font>****类型, 要么true, 要么false. 且要注意不要把"=="写成"="**
+
+```java
+package com.itheima.YunSuanFu;
+
+public class AritheimaticoperatorDemo5 {
+        public static void main(String[] args) {
+                //==
+                int a = 10;
+                int b = 10;
+                int c = 20;
+                System.out.println(a == b);
+                System.out.println(a == c);
+
+                //!=
+                System.out.println(a != b);
+                System.out.println(a != c);
+        }
+}
+```
+
+<h5 id="LFpQb">练习</h5>
+```java
+package com.itheima.test;
+
+import java.util.Scanner;
+
+public class Test2 {
+        public static void main(String[] args) {
+                /*
+                 * 你和你的约会对象在餐厅里面正在约会. 键盘输入两个整数, 表示你和你约会对象衣服的时髦成都.(手动录入0-10之间的整数, 不能录入其他)
+                 * 如果你的时髦度大于你对象的时髦度, 相亲成功输出true, 否则false
+                 */
+
+                //创建输入对象
+                Scanner sc = new Scanner(System.in);
+                System.out.println("请输入你的时髦度:");
+
+                //创建接收变量,并使用接收对象将接收的数据赋予变量
+                int n = sc.nextInt();
+                System.out.println("请输入你约会对象的时髦度:");
+                int m = sc.nextInt();
+
+                //创建布尔变量
+                boolean a = n > m;
+                System.out.println(a);
+                
+        }
+}
+
+package com.itheima.test;
+
+import java.util.Scanner;
+
+public class Test2 {
+        public static void main(String[] args) {
+                /*
+                 * 你和你的约会对象在餐厅里面正在约会. 键盘输入两个整数, 表示你和你约会对象衣服的时髦成都.(手动录入0-10之间的整数, 不能录入其他)
+                 * 如果你的时髦度大于你对象的时髦度, 相亲成功输出true, 否则false
+                 */
+
+                //创建输入对象
+                Scanner sc = new Scanner(System.in);
+                System.out.println("请输入你的时髦度:");
+
+                //创建接收变量,并使用接收对象将接收的数据赋予变量
+                int n = sc.nextInt();
+                System.out.println("请输入你约会对象的时髦度:");
+                int m = sc.nextInt();
+
+                //创建布尔变量
+                boolean a = n > m;
+                System.out.println(a);
+                
+        }
+}
+
+
+```
+
+<h4 id="qgSKQ">逻辑运算符</h4>
+在数学中, 一个数据x, 大于5, 小于15, 我们可以这样来表示: 5<x<15.
+
+再java中, 需要把上面的式子先进行拆解, 再进行合并表达
+
+**拆解为: x>5 和 x<15**
+
+**合并为: x>5&x<15**
+
+| 符号 | 作用 | 说明 |
+| --- | --- | --- |
+| & | 逻辑与 | 并且, 两边都为真,结果为真 |
+| | | 逻辑或 | 或者, 两边都为假,结果为假 |
+| ^ | 逻辑异或 | 相同为false, 不同为true |
+| ! | 逻辑非 | 取反 |
+
+
+```java
+package com.itheima.YunSuanFu;
+
+public class AritheimaticoperatorDemo6 {
+        public static void main(String[] args) {
+                //& 并且
+                //两边都为真, 结果为真
+                System.out.println(true & true);
+                System.out.println(false & false);
+                System.out.println(true & false);
+                System.out.println(false & true);
+
+                System.out.println("-----------------");
+
+                //| 或者
+                //两边都为假, 结果为假
+                System.out.println(true | true);
+                System.out.println(false | false);
+                System.out.println(true | false);
+                System.out.println(false | true);
+
+                System.out.println("-----------------");
+
+                //^ 异或
+                //相同为假, 不同为真
+                System.out.println(true ^ true);
+                System.out.println(false ^ false);
+                System.out.println(true ^ false);
+                System.out.println(false ^ true);
+
+                System.out.println("-----------------");
+
+                //! 非(取反)
+                //注意取反感叹号不要写多次
+                System.out.println(!false);
+                System.out.println(!true);
+        }
+}
+
+```
+
+<h4 id="VJbQN">短路运算符</h4>
+| 符号 | 作用 | 说明 |
+| --- | --- | --- |
+| && | 短路与 | 结果和&相同,但是有短路效果 |
+| || | 短路或 | 结果和|相同,但是有短路效果 |
+
+
+```java
+package com.itheima.YunSuanFu;
+
+public class AritheimaticoperatorDemo7 {
+        public static void main(String[] args) {
+                //&& 短路与
+                //运行结果和&是一样的
+                //表示两边都为真, 结果才为真
+                System.out.println(true && true);
+                System.out.println(false && false);
+                System.out.println(false && true);
+                System.out.println(true && false);
+
+                System.out.println("----------");
+
+                //||短路或
+                //运行结果和|是一样的
+                //表示两边都为假, 结果才为假
+                System.out.println(true || true);
+                System.out.println(false || false);
+                System.out.println(false || true);
+                System.out.println(true || false);
+
+                //短路逻辑运算符具有短路效果
+                //当左边表达式可以确定结果时,右边就不会参与运行
+                int a = 10;
+                int b = 10;
+                boolean c = ++a < 5 && ++b < 5;
+                System.out.println(c);//false
+                System.out.println(a);//11
+                System.out.println(b);//10(++b没有被执行)
+        }
+}
+
+```
+
+**注意事项:**
+
+**& | ,无论左边true false, 右边都要执行**
+
+**&& ||, 如果左边能确定整个表达式的结果, ****<font style="color:#DF2A3F;">右边不执行</font>**
+
+**&&: 左边为false, 右边不论真假, 整体都为false**
+
+**||: 左边为true, 右边不论真假, 整体都为true**
+
+```java
+package com.itheima.test;
+
+import java.util.Scanner;
+
+public class Test3 {
+        public static void main(String[] args) {
+                /*
+                 * 数字6是一个真正伟大的数字, 键盘录入两个整数
+                 * 如果其中一个为6, 最终结果输出true
+                 * 如果他们的和为6的倍数,最终结果输出true
+                 * 其他情况都为false
+                 * */
+
+                //提示
+                System.out.println("请输入两个整数:");
+                //创建输入对象
+                Scanner sc = new Scanner(System.in);
+
+                //键盘输入两个整数
+                int a = sc.nextInt();
+                int b = sc.nextInt();
+
+
+                //为真的情况a==6 b==6 (a+b)%6==0
+                //进行短路逻辑运算符连接三个判断
+                boolean result = (a + b) % 6 == 0 || a == 6 || b == 6;
+                System.out.println(result);
+        }
+}
+
+```
+
+<h4 id="wTowa">三元运算符</h4>
+**格式: 关系表达式?表达式1: 表达式2;**
+
+**计算规则:**
+
+1. **首先计算表达式的值**
+2. **如果为true,表达式1的值就是运行结果**
+3. **如果false,表达式2的值就是运行结果**
+
+**例: 求两个数的较大值**
+
+**a > b ? a : b;**
+
+```java
+package com.itheima.YunSuanFu;
+
+public class AritheimaticoperatorDemo8 {
+        public static void main(String[] args) {
+                //使用三元运算符, 获取两个数的最大值
+
+                //定义两个变量记录两个整数
+                int a = 10;
+                int b = 20;
+
+                //使用三元运算符获取两个整数的较大值
+                //格式: a>b?a:b
+                //三元运算符的结果必须使用,否则会报错
+                int max = a > b ? a : b;
+                System.out.println(max);
+                System.out.println(a > b ? a : b);
+        }
+}
+
+```
+
+```java
+package com.itheima.test;
+
+import java.util.Scanner;
+
+public class Test4 {
+        public static void main(String[] args) {
+                /*
+                 * 动物园里有两只老虎, 体重分别为通过键盘录入获得,
+                 * 请用程序实现判断两只老虎的体重是否相同
+                 * */
+
+                //创建输入对象
+                Scanner sc = new Scanner(System.in);
+            
+                System.out.println("请输入两只老虎的体重:");
+                int n = sc.nextInt();
+                int m = sc.nextInt();
+                System.out.println(n == m ? "相同" : "不同");
+        }
+}
+```
+
+```java
+package com.itheima.test;
+
+public class Test5 {
+        public static void main(String[] args) {
+                /*
+                 * 一座寺庙里住着三个和尚, 已知他们的身高分别为150cm, 210cm, 165cm
+                 * 请用程序实现获取这三个和尚的最高身高
+                 * */
+
+                //定义三个变量记录三个身高
+                int height1 = 150;
+                int height2 = 165;
+                int height3 = 210;
+
+                //将第一个和尚和第二个和尚进行比较
+                //再拿结果跟第三个和尚比较
+                int temp = height1 > height2 ? height1 : height2;
+                int max = temp > height3 ? temp : height3;
+                System.out.println(max);
+
+
+        }
+}
+```
+
+<h4 id="n3GKc">运算符优先级</h4>
+![](https://cdn.nlark.com/yuque/0/2024/png/40814874/1731721383159-e800eaa5-26ce-48a1-9aac-5c08c2037de1.png)
+
+***小括号优先于所有**
+
+
 
 
 
